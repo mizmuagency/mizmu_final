@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="max-w-10xl mx-auto">
           {/* Logo + Email */}
           <div className="flex flex-col items-start space-y-4 sm:space-y-6 md:flex-row md:justify-between md:items-center md:space-y-0 mb-6 sm:mb-8 md:mb-12">
-            <h3 className="text-[20px] xs:text-[32px] sm:text-[48px] md:text-[72px] font-montreal">fizmu</h3>
+            <h3 className="text-[20px] xs:text-[32px] sm:text-[48px] md:text-[72px] font-montreal">mizmu</h3>
             <div className="w-full md:w-auto">
               <a 
                 href="mailto:hello@mizmu.ch" 
