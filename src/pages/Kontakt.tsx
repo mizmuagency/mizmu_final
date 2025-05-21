@@ -147,23 +147,23 @@ const Kontakt = () => {
 
                 {/* Newsletter and Privacy Radio Buttons */}
                 <div className="space-y-4 mt-12">
-                  <label className="flex items-start gap-3 cursor-pointer">
+                  <label className="flex items-center gap-3 cursor-pointer">
                     <input
                       type="radio"
                       name="newsletter"
-                      className="mt-1 w-2.5 h-2.5 border-2 border-black rounded-full text-black focus:ring-0 focus:ring-offset-0 checked:bg-black checked:hover:bg-black"
+                      className="mt-0 w-2.5 h-2.5 border-2 border-black rounded-full text-black focus:ring-0 focus:ring-offset-0 checked:bg-black checked:hover:bg-black"
                     />
                     <span className="text-black text-sm leading-tight">
                       Ich freue mich auf die monatliche Digital Glow Up Story von mizmu
                     </span>
                   </label>
 
-                  <label className="flex items-start gap-3 cursor-pointer">
+                  <label className="flex items-center gap-3 cursor-pointer">
                     <input
                       type="radio"
                       name="privacy"
                       required
-                      className="mt-1 w-2.5 h-2.5 border-2 border-black rounded-full text-black focus:ring-0 focus:ring-offset-0 checked:bg-black checked:hover:bg-black"
+                      className="mt-0 w-2.5 h-2.5 border-2 border-black rounded-full text-black focus:ring-0 focus:ring-offset-0 checked:bg-black checked:hover:bg-black"
                     />
                     <span className="text-black text-sm leading-tight">
                       Ich verstehe, dass mizmu meine Daten gemäss Datenschutzerklärung sicher verwahrt
