@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { ArrowUpRight, ArrowLeft } from 'lucide-react';
 import GradientCanvas from '../components/GradientCanvas';
 import Menu from '../components/Menu';
