@@ -52,19 +52,19 @@ const Footer = () => {
             {/* Navigation */}
             <div>
               <h4 className="text-lg sm:text-xl font-montreal font-bold mb-3">Navigation</h4>
-              <ul className="space-y-2">
-                <li><Link to="/webdesign" className="text-neutral-300 hover:text-white transition-colors leading-normal" aria-label="Webdesign und Development">Webdesign & Development</Link></li>
-                <li><Link to="/projekte" className="text-neutral-300 hover:text-white transition-colors leading-normal" aria-label="Unsere Projekte">Projekte</Link></li>
-                <li><Link to="/about" className="text-neutral-300 hover:text-white transition-colors leading-normal" aria-label="Über uns">About</Link></li>
-                <li><button onClick={() => setIsContactModalOpen(true)} className="text-neutral-300 hover:text-white transition-colors leading-normal" aria-label="Kontakt aufnehmen">Kontakt</button></li>
-                <li><Link to="/blog" className="text-neutral-300 hover:text-white transition-colors leading-normal" aria-label="Blog lesen">Blog</Link></li>
+              <ul className="space-y-3">
+                <li><Link to="/webdesign" className="text-neutral-300 hover:text-white transition-colors leading-none block" aria-label="Webdesign und Development">Webdesign & Development</Link></li>
+                <li><Link to="/projekte" className="text-neutral-300 hover:text-white transition-colors leading-none block" aria-label="Unsere Projekte">Projekte</Link></li>
+                <li><Link to="/about" className="text-neutral-300 hover:text-white transition-colors leading-none block" aria-label="Über uns">About</Link></li>
+                <li><button onClick={() => setIsContactModalOpen(true)} className="text-neutral-300 hover:text-white transition-colors leading-none block" aria-label="Kontakt aufnehmen">Kontakt</button></li>
+                <li><Link to="/blog" className="text-neutral-300 hover:text-white transition-colors leading-none block" aria-label="Blog lesen">Blog</Link></li>
               </ul>
             </div>
 
             {/* Standort */}
             <div>
               <h4 className="text-lg sm:text-xl font-montreal font-bold mb-3">Standort</h4>
-              <p className="text-neutral-300 leading-normal">
+              <p className="text-neutral-300 leading-none">
                 mizmu digitale Agentur<br />
                 Sitz in der Schweiz
               </p>
@@ -73,9 +73,9 @@ const Footer = () => {
             {/* Kontakt */}
             <div>
               <h4 className="text-base sm:text-xl font-montreal font-bold mb-3">Kontakt</h4>
-              <ul className="space-y-2">
-                <li><Link to="/faq" className="text-neutral-300 hover:text-white transition-colors leading-normal font-bold">FAQs</Link></li>
-                <li><a href="https://open.spotify.com/playlist/3di7iTd1XuHDME9v2MazWh?si=Lew2CyzdRbeL5GkMdjdRHg" target="_blank" rel="noopener noreferrer" className="text-neutral-300 hover:text-white transition-colors leading-normal font-bold">mizmu.sic</a></li>
+              <ul className="space-y-3">
+                <li><Link to="/faq" className="text-neutral-300 hover:text-white transition-colors leading-none block font-bold">FAQs</Link></li>
+                <li><a href="https://open.spotify.com/playlist/3di7iTd1XuHDME9v2MazWh?si=Lew2CyzdRbeL5GkMdjdRHg" target="_blank" rel="noopener noreferrer" className="text-neutral-300 hover:text-white transition-colors leading-none block font-bold">mizmu.sic</a></li>
               </ul>
             </div>
 
