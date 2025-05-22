@@ -54,27 +54,27 @@ const Footer = () => {
               <h4 className="text-lg sm:text-xl font-montreal font-bold mb-3">Navigation</h4>
               <ul className="flex flex-col gap-2">
                 <li>
-                  <Link to="/webdesign" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
+                  <Link to="/webdesign" className="block text-neutral-300 hover:text-white transition-colors leading-normal">
                     Webdesign & Development
                   </Link>
                 </li>
                 <li>
-                  <Link to="/projekte" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
+                  <Link to="/projekte" className="block text-neutral-300 hover:text-white transition-colors leading-normal">
                     Projekte
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
+                  <Link to="/about" className="block text-neutral-300 hover:text-white transition-colors leading-normal">
                     About mizmu
                   </Link>
                 </li>
                 <li>
-                  <Link to="/kontakt" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
+                  <Link to="/kontakt" className="block text-neutral-300 hover:text-white transition-colors leading-normal">
                     Kontakt
                   </Link>
                 </li>
                 <li>
-                  <Link to="/blog" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
+                  <Link to="/blog" className="block text-neutral-300 hover:text-white transition-colors leading-normal">
                     Blog
                   </Link>
                 </li>
