@@ -52,11 +52,11 @@ const Footer = () => {
             {/* Navigation */}
             <div>
               <h4 className="text-lg sm:text-xl font-montreal font-bold mb-3">Navigation</h4>
-              <ul className="space-y-1">
+              <ul className="space-y-0.5">
                 <li><Link to="/webdesign" className="text-neutral-300 hover:text-white transition-colors" aria-label="Webdesign und Development">Webdesign & Development</Link></li>
                 <li><Link to="/projekte" className="text-neutral-300 hover:text-white transition-colors" aria-label="Unsere Projekte">Projekte</Link></li>
                 <li><Link to="/about" className="text-neutral-300 hover:text-white transition-colors" aria-label="Über uns">About mizmu</Link></li>
-                <li className="mb-1"><button onClick={() => setIsContactModalOpen(true)} className="text-neutral-300 hover:text-white transition-colors" aria-label="Kontakt aufnehmen">Kontakt</button></li>
+                <li><button onClick={() => setIsContactModalOpen(true)} className="text-neutral-300 hover:text-white transition-colors" aria-label="Kontakt aufnehmen">Kontakt</button></li>
                 <li><Link to="/blog" className="text-neutral-300 hover:text-white transition-colors" aria-label="Blog lesen">Blog</Link></li>
               </ul>
             </div>
