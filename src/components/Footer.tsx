@@ -52,12 +52,35 @@ const Footer = () => {
             {/* Navigation */}
             <div>
               <h4 className="text-lg sm:text-xl font-montreal font-bold mb-3">Navigation</h4>
-              <ul className="space-y-2">
-                <li><Link to="/webdesign" className="block text-neutral-300 hover:text-white transition-colors leading-tight" aria-label="Webdesign und Development">Webdesign & Development</Link></li>
-                <li><Link to="/projekte" className="block text-neutral-300 hover:text-white transition-colors leading-tight" aria-label="Unsere Projekte">Projekte</Link></li>
-                <li><Link to="/about" className="block text-neutral-300 hover:text-white transition-colors leading-tight" aria-label="Über uns">About mizmu</Link></li>
-                <li><button onClick={() => setIsContactModalOpen(true)} className="block text-neutral-300 hover:text-white transition-colors leading-tight w-auto h-auto min-h-0 min-w-0" aria-label="Kontakt aufnehmen">Kontakt</button></li>
-                <li><Link to="/blog" className="block text-neutral-300 hover:text-white transition-colors leading-tight" aria-label="Blog lesen">Blog</Link></li>
+              <ul className="flex flex-col gap-2">
+                <li>
+                  <Link to="/webdesign" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
+                    Webdesign & Development
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/projekte" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
+                    Projekte
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
+                    About mizmu
+                  </Link>
+                </li>
+                <li>
+                  <button
+                    onClick={() => setIsContactModalOpen(true)}
+                    className="text-neutral-300 hover:text-white transition-colors leading-normal block text-left"
+                  >
+                    Kontakt
+                  </button>
+                </li>
+                <li>
+                  <Link to="/blog" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
+                    Blog
+                  </Link>
+                </li>
               </ul>
             </div>
 
