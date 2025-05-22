@@ -69,12 +69,9 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <button
-                    onClick={() => setIsContactModalOpen(true)}
-                    className="text-neutral-300 hover:text-white transition-colors leading-normal block text-left"
-                  >
+                  <Link to="/kontakt" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
                     Kontakt
-                  </button>
+                  </Link>
                 </li>
                 <li>
                   <Link to="/blog" className="text-neutral-300 hover:text-white transition-colors leading-normal block">
