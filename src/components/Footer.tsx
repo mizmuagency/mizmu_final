@@ -51,30 +51,30 @@ const Footer = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-6 sm:mb-8 md:mb-12">
             {/* Navigation */}
             <div>
-              <h4 className="text-lg sm:text-xl font-montreal font-bold mb-3">Navigation</h4>
-              <ul className="flex flex-col">
+              <h4 className="text-lg sm:text-xl font-montreal font-bold mb-2">Navigation</h4>
+              <ul className="flex flex-col -space-y-1">
                 <li>
-                  <Link to="/webdesign" className="block text-neutral-300 hover:text-white transition-colors leading-[1.1]">
+                  <Link to="/webdesign" className="block text-neutral-300 hover:text-white transition-colors leading-[1]">
                     Webdesign & Development
                   </Link>
                 </li>
                 <li>
-                  <Link to="/projekte" className="block text-neutral-300 hover:text-white transition-colors leading-[1.1]">
+                  <Link to="/projekte" className="block text-neutral-300 hover:text-white transition-colors leading-[1]">
                     Projekte
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="block text-neutral-300 hover:text-white transition-colors leading-[1.1]">
+                  <Link to="/about" className="block text-neutral-300 hover:text-white transition-colors leading-[1]">
                     About mizmu
                   </Link>
                 </li>
                 <li>
-                  <Link to="/kontakt" className="block text-neutral-300 hover:text-white transition-colors leading-[1.1]">
+                  <Link to="/kontakt" className="block text-neutral-300 hover:text-white transition-colors leading-[1]">
                     Kontakt
                   </Link>
                 </li>
                 <li>
-                  <Link to="/blog" className="block text-neutral-300 hover:text-white transition-colors leading-[1.1]">
+                  <Link to="/blog" className="block text-neutral-300 hover:text-white transition-colors leading-[1]">
                     Blog
                   </Link>
                 </li>
@@ -83,7 +83,7 @@ const Footer = () => {
 
             {/* Standort */}
             <div>
-              <h4 className="text-lg sm:text-xl font-montreal font-bold mb-3">Standort</h4>
+              <h4 className="text-lg sm:text-xl font-montreal font-bold mb-2">Standort</h4>
               <p className="text-neutral-300">
                 mizmu digitale Agentur<br />
                 Sitz in der Schweiz
@@ -92,7 +92,7 @@ const Footer = () => {
 
             {/* Kontakt */}
             <div>
-              <h4 className="text-base sm:text-xl font-montreal font-bold mb-3">Kontakt</h4>
+              <h4 className="text-base sm:text-xl font-montreal font-bold mb-2">Kontakt</h4>
               <ul className="space-y-2">
                 <li><Link to="/faq" className="text-neutral-300 hover:text-white transition-colors font-bold">FAQs</Link></li>
                 <li><a href="https://open.spotify.com/playlist/3di7iTd1XuHDME9v2MazWh?si=Lew2CyzdRbeL5GkMdjdRHg" target="_blank" rel="noopener noreferrer" className="text-neutral-300 hover:text-white transition-colors font-bold">mizmu.sic</a></li>
