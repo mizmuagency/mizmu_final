@@ -52,7 +52,7 @@ const Footer = () => {
             {/* Navigation */}
             <div>
               <h4 className="text-lg sm:text-xl font-montreal font-bold mb-3">Navigation</h4>
-              <ul className="flex flex-col gap-2">
+              <ul className="flex flex-col gap-1">
                 <li>
                   <Link to="/webdesign" className="block text-neutral-300 hover:text-white transition-colors leading-normal">
                     Webdesign & Development
